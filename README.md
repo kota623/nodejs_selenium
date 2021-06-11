@@ -18,14 +18,10 @@ npm run test ./index.js
 ```
 
 ```js
-//init
+//init　使用する selenium のライブラリを変数に格納
 const { Browser, By, Key, until, WebDriver } = require('selenium-webdriver');
 const { ignore, suite } = require('selenium-webdriver/testing');
-```
 
-使用する selenium のライブラリを変数に格納
-
-```js
 suite(function (env) {
   describe('Google Search', function () {
     let driver;
