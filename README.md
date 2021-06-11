@@ -72,3 +72,12 @@ suite(function (env) {
 > Selenium Document
 >
 > > https://www.selenium.dev/documentation/ja/selenium_installation/
+
+> # Tips
+>
+> > mocha
+> > テストフレームワーク
+> > assert
+> > 期待値を確認するライブラリ
+> > expect
+> > https://qiita.com/TsuyoshiUshio@github/items/20157250ce6044d39b70
