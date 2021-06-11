@@ -12,7 +12,7 @@ npm run test ./index.js
 ```json
 ./package.json
   "scripts": {
-    "test": "mocha --timeout 10000"
+    "test": "mocha --timeout 10000" //タイムアウトを変更できる
   },
 
 ```
